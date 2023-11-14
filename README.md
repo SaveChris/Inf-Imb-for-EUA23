@@ -10,6 +10,7 @@ The European carbon market (EU ETS), a carbon emission allowance trading system 
   - [Installation](#installation)
 - [Usage](#usage)
   - [Code](#code)
+  - [Additional code](#additional-code)
   - [Data](#data)
 - [Documentation](#documentation)
 - [Figures](#figures)
@@ -89,6 +90,10 @@ The [Code](#code) section is organized as follows:
 - **'3_empirical_analysis.ipynb'** contains the code to reproduce the results in *Empirical analysis* section.
 - **'4_methodological_results.ipynb'** contains the code to reproduce the results in *Methodological results* section.
 - **'appendix.ipynb'** contains the code to reproduce the results in *Appendix* section.
+
+### Additional code
+The [Additional code](#additional-code) section is organized as follows_
+- **'time_scale_analysis'** contains the code to compute the time scale analysis
 
 ### Data
 The [Data](#data) section is organized as follows:
