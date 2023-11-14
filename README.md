@@ -83,12 +83,12 @@ This work is based on Jupiter notebooks, the user can find, for each section of 
 
 ### Code
 The [Code](#code) section is organized as follows:
-- **'0_data_preparation.py'** contains the code to prepare the data used in the paper.
-- **'1_introduction.py'** contains the code to reproduce the plots in the *Introduction* section.
-- **'2_methodology.py'** contains the code to reproduce the results in *Methdology* section.
-- **'3_empirical_analysis.py'** contains the code to reproduce the results in *Empirical analysis* section.
-- **'4_methodological_results.py'** contains the code to reproduce the results in *Methodological results* section.
-- **'appendix.py'** contains the code to reproduce the results in *Appendix* section.
+- **'0_data_preparation.ipynb'** contains the code to prepare the data used in the paper.
+- **'1_introduction.ipynb'** contains the code to reproduce the plots in the *Introduction* section.
+- **'2_methodology.ipynb'** contains the code to reproduce the results in *Methdology* section.
+- **'3_empirical_analysis.ipynb'** contains the code to reproduce the results in *Empirical analysis* section.
+- **'4_methodological_results.ipynb'** contains the code to reproduce the results in *Methodological results* section.
+- **'appendix.ipynb'** contains the code to reproduce the results in *Appendix* section.
 
 ### Data
 The [Data](#data) section is organized as follows:
