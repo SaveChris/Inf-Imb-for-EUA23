@@ -58,12 +58,14 @@ Before you begin, ensure you have met the following requirements:
         ```bash
         source venv/bin/activate
         ```
+
 4. **Install the required packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
 This command installs all the necessary packages to run the code specified in **'requirements.txt'** file.
+
 5. **Run the project**
 
    ```bash
