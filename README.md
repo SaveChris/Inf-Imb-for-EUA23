@@ -1,4 +1,4 @@
-# Supplementary material for the paper "Inference on Imbalance in the EU ETS: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira
+# Supplementary material for the paper "Investigating the price determinants of the European Carbon Trading System: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira
 This repository contains the supplementary material for the paper "Inference on Imbalance in the EU ETS: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira. The paper is available at **[link]**.
 
 ## Overview
