@@ -14,7 +14,7 @@ def plot_eua(date, eua, br_date, br_value, ph_date):
     ph_date (datetime): Date of change of phase.
 
     Returns:
-    None
+    fig (matplotlib.figure.Figure): The figure object.
     """
     try:
         fig, ax = plt.subplots(figsize=(8,4), dpi=700)
