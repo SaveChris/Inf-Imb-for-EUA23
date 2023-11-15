@@ -96,7 +96,7 @@ The [Code](#code) section is organized as follows:
 
 ### Data
 The [Data](#data) section is organized as follows:
-- **'Dataset_EUA23.xlsx'** contains the raw dataset, used un the data preparation code.
+- **'Dataset_EUA23.xlsx'** contains the raw dataset, used in the data preparation code.
 - **'daily_phases_data.txt'** contains the data used for the Phase 3 and 4 comparison in the paper.
 - **'daily_data.txt'** contains the daily data used in the paper.
 - **'weekly_data.txt'** contains the monthly data used in the paper.
