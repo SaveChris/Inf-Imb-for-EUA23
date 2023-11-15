@@ -27,6 +27,7 @@ def plot_eua(date, eua, br_date, br_value, ph_date):
         ax.set_ylabel('Price', fontsize = 15)
         ax.set_xlabel('Time', fontsize = 15)
         plt.grid(axis='both',color="black", alpha=.1)
+        plt.savefig('../Figures/Fig_1_EUA.png')
         plt.show()
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -59,8 +60,9 @@ def plot_corr_3(correlations_3):
     ax.get_xticklabels()[24].set_color('tab:purple')
     ax.get_xticklabels()[15].set_color('tab:red')
     ax.get_xticklabels()[20].set_color('tab:blue')
+    plt.savefig('../Figures/Fig_2.1_Correlations_3.png')
 
-    return plt.show()
+    return plt.show() 
 
 # Plotting Correlations Phase 4
 def plot_corr_4(correlations_4):
@@ -90,5 +92,5 @@ def plot_corr_4(correlations_4):
     ax.get_xticklabels()[5].set_color('tab:purple')
     ax.get_xticklabels()[14].set_color('tab:red')
     ax.get_xticklabels()[4].set_color('tab:blue')
-
+    plt.savefig('../Figures/Fig_2.2_Correlations_4.png')
     return plt.show()
