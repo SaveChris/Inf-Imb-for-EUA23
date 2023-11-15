@@ -68,7 +68,7 @@ def plot_corr_4(correlations_4):
     Plots the correlations for phase 4.
 
     Parameters:
-    correlations_3 (pandas.DataFrame): The correlation data for phase 3.
+    correlations_4 (pandas.DataFrame): The correlation data for phase 3.
 
     Returns:
     fig (matplotlib.figure.Figure): The figure object.
