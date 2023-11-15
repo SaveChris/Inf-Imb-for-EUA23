@@ -107,9 +107,9 @@ The [Documentation](#documentation) section is organized as follows:
 - **'paper.pdf'** contains the paper.
 - **'presentation.pdf'** contains the presentation of the paper.
 - [f_Docs](#f_Docs) sub-section contains the documentation of the custom functions:
-   - **'f_plot_doc'** contains the documentation of the custom function for all the plotting in the paper.
-   - **'f_imb_doc'** contains the documentation of the custom function for the Information Imbalance analysis.
-   - **'f_gp_doc'** contains the documentation of the custom function for the Gaussian Process analysis.
+   - **'f_plot_doc.md'** contains the documentation of the custom function for all the plotting in the paper.
+   - **'f_imb_doc.md'** contains the documentation of the custom function for the Information Imbalance analysis.
+   - **'f_gp_doc.md'** contains the documentation of the custom function for the Gaussian Process analysis.
 
 ## Figures
 The [Figures](#figures) section contains the figures used in the paper, numbered as in the paper.
