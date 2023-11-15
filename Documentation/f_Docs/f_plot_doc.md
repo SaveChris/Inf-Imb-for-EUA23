@@ -1,4 +1,4 @@
-## Summary
+## Summary - *plot_eua*
 This code defines a function called `plot_eua` that plots the EU ETS price with additional events marked on the graph.
 
 ## Example Usage
@@ -37,61 +37,35 @@ ___
 
 ***
 
-## Summary
-This code defines a function called `plot_corr_3` that plots the correlations for phase 3 using a bar chart. It takes a pandas DataFrame `correlations_3` as input and returns the figure and axes objects.
+## Summary - *plot_corr*
+This code defines a function called `plot_corr` that plots correlation data for two different phases. It uses the `matplotlib` library to create a figure with two subplots, each representing the correlation data for a specific phase. The function takes two pandas DataFrames as input, which contain the correlation data for phase 3 and phase 4 respectively. The function then plots the correlation data using bar charts, with different colors for specific variables of interest. The resulting figure is saved as a PNG file and displayed.
 
 ## Example Usage
 ```python
-import pandas as pd
-correlations = pd.DataFrame({'A': [0.5, 0.7, 0.9], 'B': [0.2, 0.4, 0.6]})
-plot_corr_3(correlations)
-```
-
-## Code Analysis
-### Inputs
-- `correlations_3` (pandas.DataFrame): The correlation data for phase 3.
-___
-### Flow
-1. Create a new figure and axes object using `plt.subplots()`.
-2. Plot the correlations as a bar chart using `correlations_3.plot(kind='bar', color='k', alpha=0.7, figsize=(8, 4))`.
-3. Add additional bars to highlight specific correlations using `plt.bar()`.
-4. Set the y-axis label to 'Correlation Coefficient' using `plt.ylabel()`.
-5. Add a grid to the plot using `plt.grid()`.
-6. Set the title of the plot to 'Correlations - Phase 3' using `plt.title()`.
-7. Change the color of specific x-axis tick labels using `ax.get_xticklabels()[index].set_color()`.
-___
-### Outputs
-- `fig` (matplotlib.figure.Figure): The figure object.
-- `ax` (matplotlib.axes.Axes): The axes object.
-___
-
-***
-
-## Summary
-This code defines a function called `plot_corr_4` that plots correlations for phase 4. It takes a pandas DataFrame called `correlations_4` as input and returns a matplotlib figure and axes object.
-
-## Example Usage
-```python
+correlations_3 = pd.DataFrame(...)
 correlations_4 = pd.DataFrame(...)
-fig, ax = plot_corr_4(correlations_4)
-plt.show()
+plot_corr(correlations_3, correlations_4)
 ```
 
 ## Code Analysis
 ### Inputs
-- `correlations_4` (pandas.DataFrame): The correlation data for phase 4.
+- `correlations_3` (pandas DataFrame): The correlation data for phase 3.
+- `correlations_4` (pandas DataFrame): The correlation data for phase 4.
 ___
 ### Flow
-1. Create a new figure and axes object using `plt.subplots()`.
-2. Plot the correlations as a bar chart using `correlations_4.plot(kind='bar')`.
-3. Add additional bars to highlight specific correlations using `plt.bar()`.
-4. Set the y-axis label, grid, and title.
-5. Set the color of specific x-axis tick labels.
-6. Return the figure and axes object.
+1. Create a figure object and two axes objects using `plt.subplots()`.
+2. Plot the correlation data for phase 3 on the first subplot using `correlations_3.plot()`.
+3. Add additional bars to the phase 3 plot for specific variables of interest using `ax1.bar()`.
+4. Customize the appearance of the phase 3 plot, such as setting colors and labels.
+5. Plot the correlation data for phase 4 on the second subplot using `correlations_4.plot()`.
+6. Add additional bars to the phase 4 plot for specific variables of interest using `ax2.bar()`.
+7. Customize the appearance of the phase 4 plot, such as setting colors and labels.
+8. Save the figure as a PNG file and display it using `plt.savefig()` and `plt.show()`.
 ___
 ### Outputs
-- `fig` (matplotlib.figure.Figure): The figure object.
-- `ax` (matplotlib.axes.Axes): The axes object.
+- `fig` (matplotlib.figure.Figure): The figure object representing the plotted correlations.
+- `ax` (matplotlib.axes.Axes): The axes object representing the subplots.
 ___
+
 
 ***
