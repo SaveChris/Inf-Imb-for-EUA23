@@ -111,7 +111,7 @@ The [Data](#data) section is organized as follows:
 
 ## Documentation
 The [Documentation](#documentation) section is organized as follows:
-- **'paper.pdf'** contains the paper.
+- **'Inf_Imb_EUA_23.pdf'** contains the paper.
 - **'Inf_Imb_EUA_23_p.pdf'** contains the presentation of the paper.
 
 ## Figures
