@@ -112,7 +112,7 @@ The [Documentation](#documentation) section is organized as follows:
    - **'f_gp_doc.md'** contains the documentation of the custom function for the Gaussian Process analysis.
 
 ## Figures
-The [Figures](#figures) section contains the figures used in the paper, numbered as in the paper.
+The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section contains the figures used in the paper, numbered as in the paper.
 
 ## Contributing
 We welcome contributions to improve **Inf-Imb-forEUA23**!
