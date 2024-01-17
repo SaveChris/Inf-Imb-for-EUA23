@@ -1,5 +1,5 @@
 # Supplementary material for the paper "Investigating the price determinants of the European Carbon Trading System: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira
-This repository contains the supplementary material for the paper "Investigating the price determinants of the European Carbon Trading System: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira. The paper is available at **[link]**.
+This repository contains the supplementary material for the paper "Investigating the price determinants of the European Carbon Trading System: a non-parametric approach" by C. Salvagnin, A. Glielmo, M.E. De Giuli, A. Mira.
 
 ## Overview
 The European carbon market plays a pivotal role in the European Union's ambitious target of achieving carbon neutrality by 2050. Understanding the intricacies of factors influencing EU ETS market prices is paramount for effective policy making and strategy implementation. Employing the Information Imbalance, a non-parametric measure, the study delves into the relationships among macroeconomic, economic, uncertainty, and energy variables concerning EUA prices.
@@ -12,10 +12,9 @@ This study provides nuanced insights into the evolving dynamics of the EUA price
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-  - [Code](#code)
+  - [SRC](#SRC)
   - [Data](#data)
 - [Documentation](#documentation)
-   - [f_Docs](#f_Docs)
 - [Figures](#figures)
 - [Contributing](#contributing)
 - [License](#license)
@@ -85,37 +84,38 @@ Adjust the steps and commands based on your project's specific requirements. If 
 ## Usage
 This work is based on Jupiter notebooks, the user can find, for each section of the paper the corresponding notebook. The user can run the notebook to reproduce the results of the paper.
 
-### Code
-The [Code](#code) section is organized as follows:
-- **'0_data_preparation.ipynb'** contains the code to prepare the data used in the paper.
-- **'1_introduction.ipynb'** contains the code to reproduce the plots in the *Introduction* section.
-- **'2_methodology.ipynb'** contains the code to reproduce the results in *Methdology* section.
-- **'3_empirical_analysis.ipynb'** contains the code to reproduce the results in *Empirical analysis* section.
-- **'4_methodological_results.ipynb'** contains the code to reproduce the results in *Methodological results* section.
-- **'appendix.ipynb'** contains the code to reproduce the results in *Appendix* section.
-- **'f_plots'** contains the custom function for all the plotting in the paper.
-- **'f_imb'** contains the custom function for the Information Imbalance analysis.
-- **'f_gp'** contains the custom function for the Gaussian Process analysis. 
+### SRC
+The [SRC](#SRC) section is organized as follows:
+- **'Sec_1_Introduction.ipynb'** contains the code to reproduce the results obtained in *Section 1 - Introduction*;
+- **'Sec_3_Methodology.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methodology*;
+- **'Sec_4_Empirical_analysis.ipynb'** contains the code to reproduce the results in *Section 4 - Empirical analysis*;
+- **'Sec_5_Improving.ipynb'** contains the code to reproduce the results in *Section 5 - Improving nowcasting and forecasting models through the Information Imbalance*;
+- **'A_appendix.ipynb'** contains the code to reproduce the results in *Appendix*;
+- **'S_Supplementary_material.ipynb'** contains the code to reproduce supplementary results;
+- **'check_equal_distances.py'** contains new custom function for analyzing the distances between points;
+- **'utils_perturb.py'** contains new custom function for random perturbation of points;
+- **'utils_zero_dist_imbalance.py'** contains the custom function for dealing with zero distance points. 
 
 ### Data
 The [Data](#data) section is organized as follows:
-- **'Dataset_EUA23.xlsx'** contains the raw dataset, used in the data preparation code.
-- **'daily_phases_data.txt'** contains the data used for the Phase 3 and 4 comparison in the paper.
-- **'daily_data.txt'** contains the daily data used in the paper.
+- **'Dataset_EUA23.xlsx'** contains raw dataset;
+- **'Dataset_Sample_GDP_Weekly.xlsx'** contains dataset used for the imputation and aggregation example;
+- **'Dataset_X_Final_Weekly.xlsx'** contains dataset used for the imputation and imputation example;
+- **'Dataset_eua_IMv4.3.xlsx'** contains raw dataset;
+- **'Dataset_eua_Macro_V1.xlsx'** contains raw macroeconomic dataset;
+- **'DescriptiveStatisticsAll.xlsx'** contains the descriptive statistics of the data;
+- **'biweekly_data.txt'** contains the biweekly data used in the paper;
+- **'daily_data.txt'** contains the daily data used in the paper;
+- **'monthly_data.txt'** contains the quarterly data used in the paper;
 - **'weekly_data.txt'** contains the monthly data used in the paper.
-- **'monthly_data.txt'** contains the quarterly data used in the paper.
 
 ## Documentation
 The [Documentation](#documentation) section is organized as follows:
 - **'paper.pdf'** contains the paper.
 - **'presentation.pdf'** contains the presentation of the paper.
-- [f_Docs](#f_Docs) sub-section contains the documentation of the custom functions:
-   - **'f_plot_doc.md'** contains the documentation of the custom function for all the plotting in the paper.
-   - **'f_imb_doc.md'** contains the documentation of the custom function for the Information Imbalance analysis.
-   - **'f_gp_doc.md'** contains the documentation of the custom function for the Gaussian Process analysis.
 
 ## Figures
-The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section contains the figures used in the paper, numbered as in the paper.
+The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section contains the figures used, numbered as in the paper.
 
 ## Contributing
 We welcome contributions to improve **Inf-Imb-forEUA23**!
