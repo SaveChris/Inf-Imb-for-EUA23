@@ -112,7 +112,7 @@ The [Data](#data) section is organized as follows:
 ## Documentation
 The [Documentation](#documentation) section is organized as follows:
 - **'paper.pdf'** contains the paper.
-- **'presentation.pdf'** contains the presentation of the paper.
+- **'Inf_Imb_EUA_23_p.pdf'** contains the presentation of the paper.
 
 ## Figures
 The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section contains the figures used, numbered as in the paper.
