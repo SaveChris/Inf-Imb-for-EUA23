@@ -79,7 +79,7 @@ This command installs all the necessary packages to run the code specified in **
 6. **Congratulations!**
 Your project should now be up and running!
 
-Adjust the steps and commands based on your project's specific requirements. If your project involves a different language or tool, you may need to tailor the installation instructions accordingly. Additionally, providing clear and concise instructions with helpful comments can significantly enhance the user experience. If you run into some problems or you have any questions contact me, [Cristiano Salvagnin](mailto:c.salvagnin@unibs.it), or [Aldo Glielmo](mailto:aldo.glielmo@gmail.com).
+Adjust the steps and commands based on your project's specific requirements. If your project involves a different language or tool, you may need to tailor the installation instructions accordingly. Additionally, providing clear and concise instructions with helpful comments can significantly enhance the user experience. If you run into some problems or you have any questions contact me [(Cristiano Salvagnin)](mailto:c.salvagnin@unibs.it), or [Aldo Glielmo](mailto:aldo.glielmo@gmail.com).
 
 ## Usage
 This work is based on Jupiter notebooks, the user can find, for each section of the paper the corresponding notebook. The user can run the notebook to reproduce the results of the paper.
@@ -119,7 +119,7 @@ The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section c
 
 ## Contributing
 We welcome contributions to improve **Inf-Imb-forEUA23**!
-If you encounter any issues or have suggestions for improvements, please check the existing issues to see if the topic has already been discussed. If not, feel free to [contact me](mailto:c.salvagnin@unibs.it) or [Aldo Glielmo](mailto:aldo.glielmo@gmail.com).
+If you encounter any issues or have suggestions for improvements, please check the existing issues to see if the topic has already been discussed. If not, feel free to contact me [(Cristiano Salvagnin)](mailto:c.salvagnin@unibs.it) or [Aldo Glielmo](mailto:aldo.glielmo@gmail.com).
 You should provide the following information when opening an issue:
 
 - A descriptive title
