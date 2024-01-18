@@ -115,7 +115,7 @@ The [Documentation](#documentation) section is organized as follows:
 - **'Inf_Imb_EUA_23_p.pdf'** contains the presentation of the paper.
 
 ## Figures
-The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/issues/2) section contains the figures used, numbered as in the paper.
+The [Figures](#figures) section contains the figures used, numbered as in the paper.
 
 ## Contributing
 We welcome contributions to improve **Inf-Imb-forEUA23**!
