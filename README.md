@@ -85,7 +85,7 @@ Adjust the steps and commands based on your project's specific requirements. If 
 This work is based on Jupiter notebooks, the user can find, for each section of the paper the corresponding notebook. The user can run the notebook to reproduce the results of the paper.
 
 ### SRC
-The [SRC](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/SRC) section is organized as follows:
+The [SRC](https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/SRC) section is organized as follows:
 - **'Sec_1_Introduction.ipynb'** contains the code to reproduce the results obtained in *Section 1 - Introduction*;
 - **'Sec_3_Methodology.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methodology*;
 - **'Sec_4_Empirical_analysis.ipynb'** contains the code to reproduce the results in *Section 4 - Empirical analysis*;
@@ -97,7 +97,7 @@ The [SRC](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/SRC) section
 - **'utils_zero_dist_imbalance.py'** contains the custom function for dealing with zero distance points. 
 
 ### Data
-The [Data](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Data) section is organized as follows:
+The [Data](https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Data) section is organized as follows:
 - **'Dataset_EUA23.xlsx'** contains raw dataset;
 - **'Dataset_Sample_GDP_Weekly.xlsx'** contains dataset used for the imputation and aggregation example;
 - **'Dataset_X_Final_Weekly.xlsx'** contains dataset used for the imputation and imputation example;
@@ -110,12 +110,12 @@ The [Data](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Data) secti
 - **'weekly_data.txt'** contains the monthly data used in the paper.
 
 ## Documentation
-The [Documentation](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Documentation) section is organized as follows:
+The [Documentation](https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Documentation) section is organized as follows:
 - **'Inf_Imb_EUA_23.pdf'** contains the paper.
 - **'Inf_Imb_EUA_23_p.pdf'** contains the presentation of the paper.
 
 ## Figures
-The [Figures](#https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Figures) section contains the figures used, numbered as in the paper.
+The [Figures](https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/Figures) section contains the figures used, numbered as in the paper.
 
 ## Contributing
 We welcome contributions to improve **Inf-Imb-forEUA23**!
