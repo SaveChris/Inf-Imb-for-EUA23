@@ -87,9 +87,9 @@ This work is based on Jupiter notebooks, the user can find, for each section of 
 ### SRC
 The [SRC](https://github.com/SaveChris/Inf-Imb-for-EUA23/tree/main/SRC) section is organized as follows:
 - **'Sec_1_Introduction.ipynb'** contains the code to reproduce the results obtained in *Section 1 - Introduction*;
-- **'Sec_3_Methodology.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methodology*;
-- **'Sec_4_Empirical_analysis.ipynb'** contains the code to reproduce the results in *Section 4 - Empirical analysis*;
-- **'Sec_5_Improving.ipynb'** contains the code to reproduce the results in *Section 5 - Improving nowcasting and forecasting models through the Information Imbalance*;
+- **'Sec_3_Methods.ipynb'** contains the code to reproduce the results obtained in *Section 3 - Methods*;
+- **'Sec_4_Price_determinants.ipynb'** contains the code to reproduce the results in *Section 4 - Price_determinants*;
+- **'Sec_5_Time-scale_aggregation_and_forecasting.ipynb'** contains the code to reproduce the results in *Section 5 - Time-scale aggregation and forecasting*;
 - **'A_appendix.ipynb'** contains the code to reproduce the results in *Appendix*;
 - **'S_Supplementary_material.ipynb'** contains the code to reproduce supplementary results;
 - **'check_equal_distances.py'** contains new custom function for analyzing the distances between points;
