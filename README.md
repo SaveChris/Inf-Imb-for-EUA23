@@ -69,14 +69,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 This command installs all the necessary packages to run the code specified in **'requirements.txt'** file.
 
-5. **Run the project**
-
-   ```bash
-   python main.py
-   ```
-   This command runs the main file of the project, which contains the code to reproduce the results of the paper.
-
-6. **Congratulations!**
+5. **Congratulations!**
 Your project should now be up and running!
 
 Adjust the steps and commands based on your project's specific requirements. If your project involves a different language or tool, you may need to tailor the installation instructions accordingly. Additionally, providing clear and concise instructions with helpful comments can significantly enhance the user experience. If you run into some problems or you have any questions contact me [(Cristiano Salvagnin)](mailto:c.salvagnin@unibs.it), or [Aldo Glielmo](mailto:aldo.glielmo@gmail.com).
